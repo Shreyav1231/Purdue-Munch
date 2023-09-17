@@ -1,71 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins&display=swap');
 
 * {
-  font-family: 'Poppins', sans-serif;
-  font-family: 'PT Serif', 'serif';
-  margin: 0;
-  padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
-.bi-heart {
-  float: right;
+
+main button {
+    border: none;
+    background-color: transparent;
+    padding: 1em;
 }
 
-.select {
-  padding-top: 0.5em;
-  padding-left: 33em;
-  color: #A9A9A9;
+.navbar:hover {
+    background-color: #dcdcdc;
+    padding: 0.5em;
 }
 
-.nav-link.menu-hover-effects {
-  transition: color 0.5s ease-in-out;
-  color: inherit;
-  transition: color, transform 0.5s ease-in-out;
+button:hover {
+    background-color: #dcdcdc;
 }
 
-.nav-link:hover {
-  background-color: #DCDCDC;
+#submit {
+    background-color: #ceb888;;
+    margin: auto;
+    width: 9em;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-link {
-  filter: alpha(opacity=30);
-  margin-left: 0.5px;
-  margin-right: 0.5px;
-  color: black;
+.hide-display {
+    display: none;
 }
 
-.Windsor {
-  background-image: url("Windsor Dining Court.jpg");
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 60vh;
-  min-width: 100vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 3em;
-  padding-top: 5em;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.collapsible:hover {
-  background-color: #ccc;
-}
-
-/* Style the collapsible content. Note: hidden by default */
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-
-.btn {
-  background: none;
-  border: none;
-  cursor: pointer;
+#page-3 {
+    display: none;
 }
