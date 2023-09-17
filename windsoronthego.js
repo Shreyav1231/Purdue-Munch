@@ -43,7 +43,7 @@ submit.addEventListener("click", (e) => {
   submit.innerHTML = "Confirm your order";
 
   submit.addEventListener("click", (e) => {
-    window.location.href = "page3.html"
+    window.location.href = "/Purdue-Munch/page3.html"
     submit.classList.add("hide-display");
     });
 });
