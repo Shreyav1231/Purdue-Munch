@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ceb888;
+}
+
+.button {
+    color: black;
+}
+
+.poll {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.poll h2 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.results {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.option {
+    padding: 0.5em;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.progress-bar {
+    margin: 1em;
+    flex-grow: 1;
+    height: 20px;
+    background-color: #ddd;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.nav-link {
+    color: black;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background-color: #0073e6;
+    transition: width 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+span {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+   
+}
+
