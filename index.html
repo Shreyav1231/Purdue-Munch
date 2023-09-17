@@ -36,5 +36,24 @@
   <!--   </div> <br> </br> </center><div  -->
     <!-- partial -->
   </div>
+      <script>
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    document.getElementById('loginBtn').addEventListener('click', function() {
+        // Set a flag in localStorage indicating whether the user is logged in
+        const buttonText = this.textContent;
+
+        if(buttonText === 'Login') {
+            window.location.href = 'login.html';
+        } else {
+            localStorage.setItem('isLoggedIn', 'false');
+            document.getElementById('loginBtn').textContent = 'Login';
+            alert('You have successfully logged out!');
+        }
+    });
+
+    if(isLoggedIn) {
+        document.getElementById('loginBtn').textContent = 'Logout';
+    }
+</script>
   </body>
   </html>
