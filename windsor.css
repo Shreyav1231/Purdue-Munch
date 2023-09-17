@@ -47,7 +47,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 3em;
-  padding-top: 5em;
+  padding-top: 4em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
