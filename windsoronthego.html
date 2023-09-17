@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windsor On-the-go</title>
+    <link rel = "stylesheet" href = "windsoronthego.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container py-3">
+        <header>
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+              <span class="fs-4">Windsor On-the-Go</span>
+            </a>
+      
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none navbar" href="index.html" >Purdue Munch</a>
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none navbar" href="mainPage.html">Dining Courts</a>
+              <a class="me-3 py-2 link-body-emphasis text-decoration-none navbar" href="donation.html">Donate Your Meal Swipes</a>
+            </nav>
+          </div>
+      
+        </header>
+      
+        <main id = "page-1">
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Main Course</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <button>Sausage Egg Cheese Muffin</button>
+                    <button>Egg and Cheese Bagel</button>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-normal">Fruit</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><button>Gala Apples</button></li>
+                    <button>Banana</button>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3 text-bg-primar ">
+                  <h4 class="my-0 fw-normal">Fresh Tastes</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><button>Chicken Caesar Salad</button></li>
+                    <li><button>Garden Salad</button></li>
+                    <li><button>Ham and Turkey Salad</button></li>
+                    <li><button>Chicken Salad Croissant</button></li>
+                    <li><button>Veggie Hummus Wrap</button></li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </main>
+
+        <div id = "page-2" class = "hide-display">
+            <h1>Your order</h1>
+            <div id = "selection-message"></div>
+        </div>
+
+        <div id="page-3">
+          
+        </div>
+      
+        <button id = "submit" class = "hide-display">SUBMIT</button>
+
+      </div>
+      <script src = "windsoronthego.js"></script>
+</body>
+</html>
