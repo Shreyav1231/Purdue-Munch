@@ -5,6 +5,7 @@
     font-family: 'PT Serif', serif;
 }
 
+
 main button {
     border: none;
     background-color: transparent;
@@ -21,6 +22,7 @@ button:hover {
 }
 
 #submit {
+    background-color: #ceb888;;
     margin: auto;
     width: 9em;
     height: 3em;
