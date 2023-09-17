@@ -43,7 +43,7 @@ submit.addEventListener("click", (e) => {
   submit.innerHTML = "Confirm your order";
 
   submit.addEventListener("click", (e) => {
-    window.location.href = "/Hello-World-Hackathon-main/page3.html"
+    window.location.href = "page3.html"
     submit.classList.add("hide-display");
     });
 });
