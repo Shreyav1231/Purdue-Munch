@@ -6,7 +6,8 @@
 - Shrish Mahesh
 - Shreya Venkatraman
 
-Skills - HTML, CSS, JavaScript, Bootstrap
+## Skills - 
+HTML, CSS, JavaScript, Bootstrap
 
 ## Accomplishments
 
